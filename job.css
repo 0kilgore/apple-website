@@ -1,0 +1,99 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #333;
+  margin-right: 10px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Form styles */
+#job-form {
+  margin: 20px auto;
+  width: 80%;
+  text-align: left;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #333;
+}
+
+#job-form fieldset {
+  margin-top: 20px;
+  border: none;
+  text-align: left;
+}
+
+#job-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#job-form input[type="text"],
+#job-form input[type="email"],
+#job-form input[type="number"],
+#job-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+#job-form input[type="radio"],
+#job-form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#job-form .input-radio,
+#job-form .input-checkbox {
+  margin-bottom: 10px;
+}
+
+/* Title and description styles */
+#title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+ img{
+  border-radius: 100px;
+  height: 25px;
+  width: 25px;
+ }

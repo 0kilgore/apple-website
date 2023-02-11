@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Project-Tech Job Form</title>
+      <link rel="stylesheet" href="job.css">
+      <link rel="icon" href="projectss.png">
+      <script  src="apple.js"></script>
+  </head>
+  <body>
+
+    <h1 id="title">Project Tech Job Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <nav>
+      <ul>
+    </li>
+        <li><a href="#" onclick="displayContent('home')">Home</a></li>
+        <li><a href="#" onclick="displayContent('about')">About</a></li>
+        <li><a href="#" onclick="displayContent('accessories')">Accessories</a></li>
+        <li><a href="#" onclick="displayContent('fix it')">Fix iT</a></li>
+        <li><a href="#" onclick="displayContent('mac')">Mac</a></li>
+        <li><a href="#" onclick="displayContent('support')">Support</a></li>
+      </ul>
+    </nav>
+    <form id="job-form">      
+      <fieldset>
+        <label id="name-label">Name:
+        <input type="text" id="name"required placeholder="Full Name" required>
+        </label>
+        <label id="email-label"> Email:
+          <input type="email" id="email" required placeholder="Enter Email" required>
+        </label>
+        <label id="number-label"> Age:
+          <input type="number" id="number" required min="18" max="60" placeholder="Age" required>
+        </label>
+        <label id="name-label">Phone Number:
+          <input type="tel" id="name"required placeholder="Phone Number" name="phone">
+          </label>
+        <p>What is your Gender:</p>
+        <label>
+          <input type="radio" value="Male" name="user-recommend" class="input-radio" required>
+        Male</label>
+        <input type="radio" value="female" name="user-recommend" class="input-radio" required>
+        Female</label>
+      </fieldset>
+      <fieldset>
+        <label> Which option best describes your current role?
+     <select id="dropdown" name="dropdown">
+            <option value="">Select Current Role</option>
+        <option value="1">Student</option>
+        <option value="2">Full Time Job</option>
+        <option value="3">Unemployed</option>
+        <option value="4">Other</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+     <p>Where did you hear about Project Tech?</p>
+       <label>
+     <input name="user-recommend" value="youtube" type="radio" class="input-radio" required>  
+       Youtube</label>
+       <label>
+    <input name="user-recommend" value="tiktok" type="radio" class="input-radio" required> 
+        TikTok</label>
+        <label>
+          <input name="user-recommend" value="a friend" type="radio" class="input-radio" required>
+          Friend</label>  
+          <label>
+            <input name="user-recommend" value="twitter" type="radio" class="input-radio" required>
+            Twitter</label>
+          <label>
+            <input name="user-recommend" value="other website" type="radio" class="input-radio" required>
+            Other Website</label>
+      </fieldset>
+      <fieldset>
+        <p> Here is the type of Job that is Available:</p>
+        <label>
+     <input name="prefer" value="font-end-jobs" type="radio" class="input-radio" required>
+       Font-end Jobs</label>
+        <label>
+          <input name="prefer" value="back-end- jobs" type="radio" class="input-radio" required>
+       Back-end Jobs </label>
+        <label>
+          <input name="prefer" value="additional courses" type="radio" class="input-radio" required>
+          Web development</label>
+        <label>
+          <input name="prefer" value="no improvement" type="radio" class="input-radio" required>
+         Data Analysis </label>
+         <label>
+          <input name="prefer" value="no improvement" type="radio" class="input-radio" required>
+          Full stack developer</label>
+         <br>
+          <p>Why do you want to work at Project-Tech:</p>
+             <label>
+            <input type="radio" class="input-radio" value="love coding" name="prefer" required>
+            Love Coding</label>
+             <label>
+            <input type="radio" class="input-radio" value="my dream job" name="prefer" required>
+            My Dream Job</label>
+             <label>
+            <input type="radio" class="input-radio" value="" name="prefer" required>
+            Growth opportunities</label>
+             <label>
+            <input type="radio" class="input-radio" value="" name="prefer" required>
+            </label>
+<p>  Your Bio </p>
+
+<textarea id="comment" class="input-textarea" name="comment" placeholder="Bio Here" rows="3" cols="30" required></textarea>
+<a href="https://twitter.com/Project_Techs">
+  <img src="twitter.png" alt="Twitter logo">
+</a>
+      </fieldset>
+      </form>
+      <input type="submit" value="submit" id="submit"  onclick="location.href='thanks.html'">
+
+    </body>
+    <footer>
+      <p>©2023-2024 Project-Techs</p>
+    </footer>
+  </div>   
+  </html>
