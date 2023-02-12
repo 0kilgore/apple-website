@@ -1,7 +1,7 @@
 function displayContent(content) {
     switch (content) {
-      case 'home':
-        window.location.href = 'apple.html';
+      case 'index':
+        window.location.href = 'index.html';
         break;
       case 'Job':
         window.location.href = 'job.html';
